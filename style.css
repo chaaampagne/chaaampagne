@@ -12,24 +12,25 @@ html, body {
     color: #333;
 }
 
-/* Body */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Header Section */
 header {
     position: relative;
     display: flex;
-    justify-content:center; /* Center the nav items */
-    align-items: center;     /* Vertically center the logo and nav */
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
     background: linear-gradient(to right, #6a82fb, #fc5c7d);
     color: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Navigation Styles */
 nav ul {
     display: flex;
     list-style: none;
@@ -51,16 +52,18 @@ nav ul li a:hover {
     color: #fc5c7d;
 }
 
+/* Logo */
 .logo {
     position: absolute;
-    left: 20px; /* Position the logo at the left */
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .logo img {
-    height: 80px; /* Control the logo size */
+    height: 80px;
 }
+
 /* Main Section */
 main {
     flex: 1;
@@ -72,6 +75,7 @@ main {
     background-position: center;
 }
 
+/* Home Section */
 #home {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 40px;
@@ -79,17 +83,17 @@ main {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
-    text-align:justify;
+    text-align: justify;
 }
 
 h1 {
-    font-size: 3rem; /* Larger title size */
+    font-size: 3rem;
     margin-bottom: 20px;
-    color: #6a82fb; /* Change the title color */
+    color: #6a82fb;
 }
 
 p {
-    line-height: 1.6; /* Improved line spacing for readability */
+    line-height: 1.6;
     margin: 10px 0;
 }
 
@@ -109,106 +113,90 @@ a.btn:hover {
     transform: scale(1.05);
 }
 
+/* About Section */
 #about {
-    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Wider container for more space */
-    margin: 20px auto; /* Center the section */
-    text-align: left; /* Left align text for better readability */
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
 }
 
 h2 {
     font-size: 2.5rem;
-    color: #6a82fb; /* Change the title color */
+    color: #6a82fb;
     margin-bottom: 20px;
 }
 
 .image-gallery {
-    display: flex; /* Use flexbox for image arrangement */
-    justify-content: space-around; /* Space images evenly */
-    margin: 20px 0; /* Add margin for spacing */
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
 .profile-image {
-    width: 300px; /* Set a specific width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: add rounded corners */
-    margin-right: 10px; /* Space between images */
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
-a.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 20px;
-    background: linear-gradient(to right, #6a82fb, #fc5c7d);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s, transform 0.2s;
-}
-
-a.btn:hover {
-    background: #fc5c7d;
-    transform: scale(1.05); /* Slight zoom on hover */
-}
-
-/* Goals section */
+/* Goals Section */
 #goals {
-    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
-    padding: 40px; /* Match padding as in About page */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Same max width as About page */
-    margin: 20px auto; /* Center the section */
-    text-align: left; /* Left align text for better readability */
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
 }
 
 h2 {
     font-size: 2.5rem;
-    color: #6a82fb; /* Change the title color */
+    color: #6a82fb;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 1.5rem; /* Font size for subheadings */
-    margin-top: 20px; /* Space above the subheadings */
-    color: #333; /* Color for subheadings */
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
 }
 
 ul {
-    list-style-type: disc; /* Use bullets for list items */
-    margin-left: 20px; /* Space for the bullet list */
-    margin-top: 10px; /* Space above the list */
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 li {
-    margin-bottom: 10px; /* Space between list items */
+    margin-bottom: 10px;
 }
 
 .goal {
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    height: 100%; /* Adjust as needed to ensure enough height for vertical centering */
-    text-align: center; /* Optional: Center any text inside */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
 }
 
 .goal img {
-    height: 300px; /* Control the image size */
+    height: 300px;
 }
 
-
-/* Contact section */
+/* Contact Section */
 #contact {
-    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
-    text-align:left; /* Centered text */
+    text-align: left;
     color: #333;
 }
 
@@ -236,10 +224,9 @@ li {
 
 #contact ul li i {
     color: #6a82fb;
-    margin-right: 10px; /* Spacing between icon and text */
+    margin-right: 10px;
 }
 
-/* Button-like effect for links */
 #contact ul li a {
     color: #fc5c7d;
     text-decoration: none;
@@ -249,7 +236,7 @@ li {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Footer */
+/* Footer Section */
 footer {
     background: linear-gradient(to right, #6a82fb, #fc5c7d);
     color: #fff;
@@ -257,7 +244,7 @@ footer {
     padding: 10px 0;
 }
 
-/* Responsive for small screens */
+/* Responsive Styles */
 @media (max-width: 768px) {
     #contact {
         padding: 30px;
